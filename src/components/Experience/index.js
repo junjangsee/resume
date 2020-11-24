@@ -91,7 +91,7 @@ const Experience = ({ experiences }) => {
       <Section>
         {experiences.map((experience, index) => (
           <Row key={index}>
-            <Left key>
+            <Left>
               <div className='company'>
                 <Title>{experience.company}</Title>
                 <Column>
