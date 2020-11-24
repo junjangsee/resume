@@ -26,10 +26,14 @@ const Contact = () => {
     <>
       <Section>
         <Point color='black'>
-          <Link href='https://github.com/junjangsee'>Github</Link>
+          <Link target='_blank' href='https://github.com/junjangsee'>
+            Github
+          </Link>
         </Point>
         <Point color='#54a0ff'>
-          <Link href='https://junjangsee.tistory.com/'>Blog</Link>
+          <Link target='_blank' href='https://junjangsee.tistory.com/'>
+            Blog
+          </Link>
         </Point>
         <Point color='#feca57'>
           <Link href='mailto:junjang.see@gmail.com'>Email</Link>
