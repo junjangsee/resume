@@ -8,8 +8,8 @@ const portfolios = [
                     Class Component로 구현 했을 때와의 차이점을 학습하고, Function Component와 React Hooks를 학습하였습니다. <br />
                     Server와 Admin을 함께 구현하여 서비스의 전체 흐름을 알기 위해 개발하고 있습니다.`,
     learns: [
-      'Express를 활용한 API 구현',
-      'React Hooks의 활용',
+      'Express.js를 활용하여 RESTful API를 구현',
+      'React Hooks의 활용한 데이터 분배',
       'axios 라이브러리를 통한 API 비동기 통신',
     ],
   },
@@ -22,11 +22,11 @@ const portfolios = [
                 기존 Vanila Javascript로 구현 했을 때와 차이점을 비교하고 체감하며 React의 Class Component의 특성을 학습하였습니다. <br />
                 webpack(웹팩)을 이해하기 위해 웹팩으로 프로젝트 세팅을 하였으며 사용법을 익혔습니다.`,
     learns: [
-      '프리젠테이셔널 & 컨테이너 컴포넌트를 구분하여 관심사 분리',
-      '컴포넌트 라이프사이클에 맞는 메소드를 활용',
+      'Container와 Presentational 컴포넌트를 구분하여 데이터를 받는 부분과 처리하는 부분을 구분',
+      '컴포넌트 라이프사이클을 이해하고 활용하여 상황에 맞게끔 활용',
       'React-Router를 통한 페이지 라우팅',
-      '레이아웃 단위의 재사용 컴포넌트 구현',
-      'webpack을 활용한 번들링',
+      '재사용 컴포넌트를 구현하고 활용',
+      'webpack으로 React 프로젝트 세팅과 활용법',
       'CSS Module을 통한 Scope 분리',
     ],
   },

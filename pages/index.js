@@ -26,7 +26,7 @@ export default function Home() {
     <>
       <ResetStyles />
       <Head>
-        <title>Resume, JunHyeoung Kim</title>
+        <title>Resume, JunHyeoung Kim.</title>
         <link rel='icon' href='/favicon.ico' />
         <link
           href='https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap'
@@ -35,10 +35,10 @@ export default function Home() {
       </Head>
       <Container>
         <Profile />
-        <Subject>Experience</Subject>
-        <Experience experiences={experiences} />
         <Subject margin='0 0 40px 0'>Portfolio</Subject>
         <Portfolio portfolios={portfolios} />
+        <Subject>Experience</Subject>
+        <Experience experiences={experiences} />
         <Subject margin='0 0 40px 0'>Contact</Subject>
         <Contact />
       </Container>

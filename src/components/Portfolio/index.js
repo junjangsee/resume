@@ -20,6 +20,7 @@ const Title = styled.h3`
 `;
 
 const Link = styled.a`
+  color: #80a3d2;
   font-size: 28px;
   font-weight: 600;
   transition: color 200ms ease-in;

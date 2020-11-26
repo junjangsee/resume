@@ -101,7 +101,7 @@ const Profile = () => {
       </Left>
       <Right className='description'>
         <Bow>
-          반갑습니다, <br /> 저는 김준형입니다.
+          안녕하세요, <br /> 저는 김준형입니다.
         </Bow>
         <Description>
           빠르게 바뀌어 가는 웹 생태계와 다양한 언어 및 라이브러리, 프레임워크에
