@@ -1,9 +1,23 @@
 const portfolios = [
   {
+    id: 0,
+    url: 'https://github.com/fronttigger/study-client',
+    title: 'Matched',
+    dueDate: '2021. 04 - 현재',
+    description: `사이드 프로젝트 매칭 서비스를 제작하고 있습니다. <br />
+                    프론트엔드 개발을 담당하고 있으며 서버사이드렌더링(SSR)과 타입스크립트(TS) 학습을 위해 Next.js를 활용하고 있습니다. <br />
+                    기획, 디자인, 백엔드와 함께 협업하며 실제 구현한 서비스를 운영해보는 경험을 위해 개발하고 있습니다.`,
+    learns: [
+      'Next.js를 활용한 서버사이드렌더링 구현',
+      '타입스크립트를 통한 안정적인 개발과 디버깅',
+      '기획자, 디자이너, 백엔드 개발자와의 협업 및 의사소통',
+    ],
+  },
+  {
     id: 1,
     url: 'https://github.com/junjangsee/react-airbnb-clone',
     title: 'Airbnb Clone',
-    dueDate: '2020. 11 - 현재',
+    dueDate: '2020. 11 - 2020. 11',
     description: `Airbnb의 모바일 버전을 React를 활용하여 구현하였습니다. <br />
                     Class Component로 구현 했을 때와의 차이점을 학습하고, Function Component와 React Hooks를 학습하였습니다. <br />
                     Server와 Admin을 함께 구현하여 서비스의 전체 흐름을 알기 위해 개발하고 있습니다.`,
@@ -17,7 +31,7 @@ const portfolios = [
     id: 2,
     url: 'https://github.com/junjangsee/react-instagram-clone',
     title: 'React Instagram Clone',
-    dueDate: '2020. 10 - 현재',
+    dueDate: '2020. 10 - 2020. 11',
     description: `Instagram을 React를 활용하여 구현하였습니다. <br />
                 기존 Vanila Javascript로 구현 했을 때와 차이점을 비교하고 체감하며 React의 Class Component의 특성을 학습하였습니다. <br />
                 webpack(웹팩)을 이해하기 위해 웹팩으로 프로젝트 세팅을 하였으며 사용법을 익혔습니다.`,

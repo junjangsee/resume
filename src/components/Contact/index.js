@@ -26,17 +26,17 @@ const Contact = () => {
     <>
       <Section>
         <Point color='black'>
-          <Link target='_blank' href='https://github.com/junjangsee'>
+          <Link target='_blank' href='https://github.com/fronttigger'>
             Github
           </Link>
         </Point>
         <Point color='#54a0ff'>
-          <Link target='_blank' href='https://junjangsee.tistory.com/'>
+          <Link target='_blank' href='https://tigger.dev'>
             Blog
           </Link>
         </Point>
         <Point color='#feca57'>
-          <Link href='mailto:junjang.see@gmail.com'>Email</Link>
+          <Link href='mailto:fronttigger@gmail.com'>Email</Link>
         </Point>
       </Section>
     </>

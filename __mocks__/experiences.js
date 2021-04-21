@@ -1,6 +1,57 @@
 const experiences = [
   {
     id: 1,
+    company: '보닥(아이지넷)',
+    job: 'Frontend Engineer',
+    dueDate: '2020. 12 - 2021. 04',
+    projects: [
+      {
+        id: 1,
+        title: 'Finder(고객 검색 & 고객 상담 요청 관리)',
+        dueDate: '2020. 12 - 현재',
+        description: `사내에서 사용되는 고객 검색과 요청된 상담 목록을 관리하는 서비스를 구축 중입니다.`,
+        todos: [
+          '로그인 & 로그아웃 기능',
+          '개인정보 수정 기능',
+          'GoogleOTP를 연동한 2차 인증 기능',
+          '고객 검색 기능',
+          '고객 정보 조회 기능',
+          '상담 요청 관리 기능',
+        ],
+        stacks: [
+          'Typescript',
+          'React',
+          'GraphQL Apollo',
+          'styled-components',
+          'GitLab',
+        ],
+      },
+      {
+        id: 2,
+        title: 'Planner(고객 상담 요청 관리)',
+        dueDate: '2020. 12 - 현재',
+        description: `사내에서 사용되는 상담사들이 고객을 관리하는 서비스를 구축 중입니다.`,
+        todos: [
+          '회원가입 기능',
+          '로그인 & 로그아웃 기능',
+          '개인정보 수정 기능',
+          'GoogleOTP를 연동한 2차 인증 기능',
+          '핸드폰 인증 기능',
+          '상담 요청 관리 기능',
+        ],
+        stacks: [
+          'Typescript',
+          'React',
+          'GraphQL Apollo',
+          'styled-components',
+          'GitLab',
+        ],
+      },
+    ],
+  },
+  ,
+  {
+    id: 2,
     company: '그로브소프트',
     job: 'Web Developer',
     dueDate: '2019. 06 - 2020. 04',

@@ -35,10 +35,10 @@ export default function Home() {
       </Head>
       <Container>
         <Profile />
-        <Subject margin='0 0 40px 0'>Portfolio</Subject>
-        <Portfolio portfolios={portfolios} />
         <Subject>Experience</Subject>
         <Experience experiences={experiences} />
+        <Subject margin='0 0 40px 0'>Portfolio</Subject>
+        <Portfolio portfolios={portfolios} />
         <Subject margin='0 0 40px 0'>Contact</Subject>
         <Contact />
       </Container>

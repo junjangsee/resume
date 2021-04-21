@@ -82,21 +82,21 @@ const Profile = () => {
             Git |{' '}
             <a
               style={{ color: '#ffffff' }}
-              href='https://github.com/junjangsee'
+              href='https://github.com/fronttigger'
               target='_blank'>
-              https://github.com/junjangsee
+              https://github.com/fronttigger
             </a>
           </AddressContent>
           <AddressContent>
             Blog |{' '}
             <a
               style={{ color: '#ffffff' }}
-              href='https://junjangsee.tistory.com'
+              href='https://tigger.dev'
               target='_blank'>
-              https://junjangsee.tistory.com/
+              https://tigger.dev
             </a>
           </AddressContent>
-          <AddressContent>Email | junjang.see@gmail.com</AddressContent>
+          <AddressContent>Email | fronttigger@gmail.com</AddressContent>
         </div>
       </Left>
       <Right className='description'>
